@@ -1,0 +1,8 @@
+<macro name="head_up" icon="UP">
+   <assert-service description="Ensure 0000ffe5-0000-1000-8000-00805f9b34fb service" uuid="0000ffe5-0000-1000-8000-00805f9b34fb">
+      <assert-characteristic description="Ensure 0000ffe9-0000-1000-8000-00805f9b34fb characteristic" uuid="0000ffe9-0000-1000-8000-00805f9b34fb">
+         <property name="WRITE" requirement="MANDATORY"/>
+      </assert-characteristic>
+   </assert-service>
+   <write description="Stop" characteristic-uuid="0000ffe9-0000-1000-8000-00805f9b34fb" service-uuid="0000ffe5-0000-1000-8000-00805f9b34fb" value="E6FE16000000000005" type="WRITE_REQUEST"/>
+</macro>
