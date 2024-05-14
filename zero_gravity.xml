@@ -4,5 +4,6 @@
          <property name="WRITE" requirement="MANDATORY"/>
       </assert-characteristic>
    </assert-service>
-   <write description="Zero gravity" characteristic-uuid="0000ffe9-0000-1000-8000-00805f9b34fb" service-uuid="0000ffe5-0000-1000-8000-00805f9b34fb" value="E6FE160040000000C5" type="WRITE_REQUEST"/>
+   <write description="Stop" characteristic-uuid="0000ffe9-0000-1000-8000-00805f9b34fb" service-uuid="0000ffe5-0000-1000-8000-00805f9b34fb" value="E6FE16000000000005" type="WRITE_REQUEST"/>
+   <write description="Preset position" characteristic-uuid="0000ffe9-0000-1000-8000-00805f9b34fb" service-uuid="0000ffe5-0000-1000-8000-00805f9b34fb" value="E6FE160040000000C5" type="WRITE_REQUEST"/>
 </macro>
